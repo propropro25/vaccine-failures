@@ -1,0 +1,18 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Photo Feed</title>
+
+<link rel="stylesheet" href="feed.css">
+
+<div id="pf" class="pf"></div>
+
+<script src="feed.js"></script>
+<script>
+  PhotoFeed.mount({
+    container: "#pf",
+    manifestUrl: "images.json?v=1",
+    imageBaseUrl: "images/",
+    storageKey: "pf_propropro25_vaccine_failures"
+  });
+</script>
